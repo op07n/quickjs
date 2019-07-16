@@ -29,7 +29,7 @@ script:
   - PATH=$PATH:/c/tools/msys64/usr/bin/
   - export CONFIG_SHELL=/usr/bin/bash.exe
  
-  - git clone https://github.com/horhof/quickjs.git
+  # - git clone https://github.com/horhof/quickjs.git
   - cd quickjs
   - make
   - make install  
